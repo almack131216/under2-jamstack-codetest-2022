@@ -13,19 +13,19 @@ We've put together a short code exercise so we can better understand your develo
 - [ ] add the site name here
 ## Part 3 — Performance troubleshooting
 Our site is fast out of the box but there are a couple of quick wins we can grab to speed the page up further.
-- [ ] Run a lighthouse test (in a guest tab) and record the results
-- [ ] Implement the 2 main oppurtunitues that lighthouse provides
-- [ ] Run another lighthouse test and record the reult
+- [ ] Run a lighthouse test (in a guest tab) and record the results here.
+- [ ] Implement the 2 main opportunitues that lighthouse provides
+- [ ] Run another lighthouse test and record the results here.
 - [ ] Push your progress to your github branch and trigger a build
  
 ## Part 4 — Finishing off the home page
 - [ ] Using the `/content/latest-articles.json` file located in the root of this project, build out and populate the new latest articles page section
 - [ ] Our client has asked for a newsletter signup form to be added to the site just above the footer. Using the designs in the `/designs` directory, build out the newsletter signup section ui
-
 - [ ] Wire up the form so that submissions will post the form data to `https://under2.free.beeceptor.com/submit` with the following data structure: 
   ```{ firstName, lastName, email, company }```
+- [ ] When the form is submitted successfully, show a confirmation message to the end user.
 - [ ] Push your progress to your github branch and trigger a build
 
-
 ## Part 5 - Finishing up
-- [ ] Share the repo with aaron@under2.agency
+- [ ] Make sure the repo is public and share it with us
+- [ ] Make sure the netlify site is up and running and share it with us
