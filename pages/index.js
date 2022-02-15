@@ -10,7 +10,7 @@ import featuredPartnersJSON from "../content/featured-partners.json"
 
 
 export function getStaticProps() {
-
+  return { props: { name: 'alex' } }
 }
 
 export default function Home() {
