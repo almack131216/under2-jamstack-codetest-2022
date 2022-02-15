@@ -5,8 +5,10 @@ import { FeaturedPartners } from '../components/sections/FeaturedPartners/Featur
 import { GlobalFooter } from '../components/sections/GlobalFooter'
 import { GlobalNavigation } from '../components/sections/GlobalNavigation'
 import { HomeHero } from '../components/sections/HomeHero'
+import { LatestNews } from "../components/sections/LatestNews"
 
 import featuredPartnersJSON from "../content/featured-partners.json"
+import latestNewsJSON from "../content/latest-articles.json"
 
 
 export function getStaticProps() {
@@ -27,6 +29,7 @@ export default function Home() {
         <HomeHero />
         <FeaturedBenefits padding="mdTopOnly"  />
         <FeaturedPartners partners={featuredPartnersJSON} />
+        <LatestNews articles={latestNewsJSON} />
       </div>
       <GlobalFooter />
     </>
