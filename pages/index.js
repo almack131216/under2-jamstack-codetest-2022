@@ -6,6 +6,7 @@ import { GlobalFooter } from '../components/sections/GlobalFooter'
 import { GlobalNavigation } from '../components/sections/GlobalNavigation'
 import { HomeHero } from '../components/sections/HomeHero'
 import { LatestNews } from "../components/sections/LatestNews"
+import { SignUp } from '../components/sections/SignUp'
 
 import featuredPartnersJSON from "../content/featured-partners.json"
 import latestNewsJSON from "../content/latest-articles.json"
@@ -30,6 +31,7 @@ export default function Home() {
         <FeaturedBenefits padding="mdTopOnly"  />
         <FeaturedPartners partners={featuredPartnersJSON} />
         <LatestNews articles={latestNewsJSON} />
+        <SignUp />
       </div>
       <GlobalFooter />
     </>
