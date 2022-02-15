@@ -1,9 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Image from 'next/image'
 import { Container } from "../../atoms/Container"
 import { Heading } from "../../atoms/Heading"
 import { TextBlock } from "../../atoms/TextBlock"
 import { Button } from "../../atoms/Button/Button"
+import heroImg from '../../../public/images/hero-image.png'
 
 HomeHero.propTypes = {
     className: PropTypes.string,
@@ -21,7 +23,8 @@ export function HomeHero({ className = "" }) {
                     <Button href="#">Schedule a demo</Button>
                 </div>
                 <div className="order-1 md:order-2 md:col-span-7">
-                    <img src="/images/hero-image.png" width="657" height="571" alt="" />
+                <Image src={heroImg} alt="hero image" layout='responsive' sizes="50vw"
+      />
                 </div>
             </Container>
         </header>
